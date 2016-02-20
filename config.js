@@ -29,9 +29,9 @@ module.exports = {
   "collectionOutputType": "json",
   "urlPrefix": "",
   "auth": {
-    "usersDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248",
+    "usersDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248/getir-hackathon",
     "usersCollection": "User",
-    "tokenDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248",
+    "tokenDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248/getir-hackathon",
     "tokensCollectionName": "Token",
     "universalAuthToken": "a3d38c88a4f5f21df86b810ff5235788",
     "tokenExpirationTimeHours": 8
