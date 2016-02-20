@@ -1,4 +1,12 @@
+var logger = new (winston.Logger)({
+    transports: [
+      new (winston.transports.Console)(),
+      new (winston.transports.File)({ filename: 'somefile.log' })
+    ]
+  });
+
 module.exports = {
+	"logger" : logger,
   "db": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248",
   "server": {
     "port": process.env.PORT || 3000,
