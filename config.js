@@ -7,7 +7,7 @@ module.exports = {
   "accessControl": {
     "allowOrigin": "*",
     "allowMethods": "GET,POST,PUT,DELETE,HEAD,OPTIONS",
-    "allowCredentials": false
+    "allowCredentials": true
   },
   "mongoOptions": {
     "serverOptions": {},
@@ -25,5 +25,5 @@ module.exports = {
     "tokensCollectionName": "Token",
     "universalAuthToken": "a3d38c88a4f5f21df86b810ff5235788",
     "tokenExpirationTimeHours": 8
-}
+	}
 }
