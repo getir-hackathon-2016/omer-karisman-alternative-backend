@@ -1,5 +1,5 @@
 module.exports = {
-  "db": "mongodb://getir:Kklmfux0r,@ds011248.mongolab.com:11248",
+  "db": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248",
   "server": {
     "port": process.env.PORT || 3000,
     "address": "0.0.0.0"
