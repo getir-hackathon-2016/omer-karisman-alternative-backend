@@ -9,7 +9,7 @@ var logger = new (winston.Logger)({
 
 module.exports = {
 	"logger" : logger,
-  "db": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248",
+  "db": "mongodb://getir2:Kklmfux0r,@ds013838-a0.mlab.com:13838,ds013838-a1.mlab.com:13838/getir-hackathon?replicaSet=rs-ds013838",
   "server": {
     "port": process.env.PORT || 3000,
     "address": "0.0.0.0"
@@ -29,9 +29,9 @@ module.exports = {
   "collectionOutputType": "json",
   "urlPrefix": "",
   "auth": {
-    "usersDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248/getir-hackathon",
+    "usersDBConnection": "mongodb://getir2:Kklmfux0r,@ds013838-a0.mlab.com:13838,ds013838-a1.mlab.com:13838/getir-hackathon?replicaSet=rs-ds013838",
     "usersCollection": "User",
-    "tokenDBConnection": "mongodb://getir2:Kklmfux0r,@ds011248.mongolab.com:11248/getir-hackathon",
+    "tokenDBConnection": "mongodb://getir2:Kklmfux0r,@ds013838-a0.mlab.com:13838,ds013838-a1.mlab.com:13838/getir-hackathon?replicaSet=rs-ds013838",
     "tokensCollectionName": "Token",
     "universalAuthToken": "a3d38c88a4f5f21df86b810ff5235788",
     "tokenExpirationTimeHours": 8
