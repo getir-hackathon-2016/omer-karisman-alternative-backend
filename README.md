@@ -12,3 +12,10 @@ This is the iOS implementation.
 - Provides basic and easy Rest API
 - Easily editable
 - Logs with Winston
+
+# To-Do
+- Create a Redis connection and store Cart data there. Also the regular order lists.
+- Improve authentication. Maybe add some social login features.
+- Add socket.io to communicate live order status and location.
+- Add a GUI to track orders, payments and storage.
+- Actual "add to cart" and "order" is not working. So backend doesn't check for warehouses status or the product status and quantities. This should be implemented first hand!
